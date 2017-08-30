@@ -1,0 +1,161 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  background-image: url("../images/covercover.jpeg");
+  background-size: cover;
+  padding-bottom: 300px;
+  min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  clear: both;
+  height: 50px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+div {
+  width: 18%;
+  float: left;
+  margin-left: 2%;
+}
+
+
+h1 {
+  clear: both;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+h2 {
+  margin-right: 40px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+img {
+  width: 90%;
+  height: 85%;
+}
+
+nav {
+  float: right;
+  margin-right: 50px;
+  height: 100px;
+}
+
+nav div i {
+  margin-left: 20px;
+  margin-top: 41px;
+}
+
+.brand {
+  color: white;
+  font-size: 100px;
+  padding-top: 180px;
+}
+
+.description {
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    margin-left: 100px;
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 30px; /* Increased font size */
+}
+
+.logo {
+  float: left;
+  margin-left: 40px;
+  color: white;
+}
+
+.recent {
+  margin-left: 30px;
+}
+
+#create {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 40px;
+}
